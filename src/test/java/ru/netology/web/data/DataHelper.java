@@ -35,19 +35,19 @@ public class DataHelper {
 
     @Value
     public static class AuthInfo {
-        private String login;
-        private String password;
+         String login;
+        String password;
     }
 
     @Value
     public static class VerificationCode {
-        private String code;
+         String code;
     }
 
     @Value
     public static class CardInfo {
-        private String cardNumber;
-        private String testId;
+         String cardNumber;
+         String testId;
     }
 
 
